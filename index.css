@@ -1,0 +1,37 @@
+#Usuario{
+position:absolute;
+left:42%;
+top:20%;    
+}
+#Senha{
+    position:absolute;
+    left:43%;
+    top:40%;
+    
+}
+#escrever{
+    position:absolute;
+    left:33%;
+    top:37%
+}
+#senha1{
+    position:absolute;
+    left:33%;
+    top:55%
+    
+}
+#enviar{
+     position:absolute;
+    left:30%;
+    top:70%
+    
+}
+#cancelar{
+     position:absolute;
+    left:50%;
+    top:70%
+
+   
+    
+    
+}
