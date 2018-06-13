@@ -30,10 +30,23 @@ and open the template in the editor.
         position:absolute;
         font-size:450%;
         color:white;
-        left:36%;
+        left:20%;
         top:10%;
+        text-shadow:2px 1px 2px red;
            
     }
+    #gravar{
+     position:absolute;
+    left:27%;
+    top:65%;
+}
+#limpar{
+     position:absolute;
+    left:57%;
+    top:65%;
+    
+     
+}
     #Usuario-login{
 position:absolute;
 left:42%;
@@ -51,10 +64,10 @@ font-family:Comic Sans MS, Comic Sans, cursive;
 }
     #facalogin{
     position:absolute;
-        font-size:250%;
+        font-size:200%;
         color:white;
-        left:25%;
-        top:5%;
+        left:15%;
+        top:3%;
         font-family:Comic Sans MS, Comic Sans, cursive;
     }
        #login-box-interno{
@@ -73,7 +86,7 @@ font-family:Comic Sans MS, Comic Sans, cursive;
        #cadastro{
            position:absolute;
            left:70%;
-           top:85%
+           top:85%;
           }
           #caixa-cadastro{
           
@@ -92,31 +105,59 @@ font-family:Comic Sans MS, Comic Sans, cursive;
       #Usuario-cadastro{
           position:absolute;
           color:white;
+          left:10%;
+          top:15%;
+          
+          
+          
+          
           
       }
       #Senha-cadastro{
           position:absolute;
           color:white;
+          left:10%;
+          top:24%;
        }
        #Email-cadastro{
            position:absolute;
           color:white;
+          left:10%;
+          top:33%;
+             
        }
        #Telefone-cadastro{
            position:absolute;
+           left:10%;
            color:white;
+           top:42%;
        }  
        #barra-do-usuario{
+           position:absolute;
+          left:33%;
+          top:19%;
+          height:22px;
+             
            
        }
        #barra-da-senha{
-           
+           position:absolute;
+           left:30%;
+          top:27%;
+          height:22px;
        }
        #barra-do-email{
+           position:absolute;
+           left:30%;
+           top:36%;
+           height:22px;
            
        }
        #barra-do-telefone{
-       
+       position:absolute;
+       left:35%;
+       top:45%;
+       height:22px;
        }
       
     </style>
@@ -138,14 +179,14 @@ font-family:Comic Sans MS, Comic Sans, cursive;
         <div id="caixa-cadastro">
             <div id="facalogin">Faça Seu Cadastro !</div>
             <form>
-                <h3 id="Usuario-cadastro">Usuario:</h3><input type="text" value=usuario" id="barra-do-usuario" size="25" >
-                <h3 id="Senha-cadastro"> Senha:</h3><input type="text" value="senha" id="barra-da-senha" size="25" >
-                <h3 id="Email-cadastro">Email:</h3><input type="text" value="email" id="barra-do-email" size="25" >
-                <h3 id="Telefone-cadastro">Telefone:</h3><input type="text" value="telefone" id="barra-do-telefone" size="25" >
-                <input type="button" value="GRAVAR" size="15">
-                <input type="button" value="LIMPAR" size="15">
+                <h2 id="Usuario-cadastro">Usuario:</h2><input type="text" value=usuario" id="barra-do-usuario" size="25" >
+                <h2 id="Senha-cadastro"> Senha:</h2><input type="text" value="senha" id="barra-da-senha" size="25" >
+                <h2 id="Email-cadastro">Email:</h2><input type="text" value="email" id="barra-do-email" size="25" >
+                <h2 id="Telefone-cadastro">Telefone:</h2><input type="text" value="telefone" id="barra-do-telefone" size="25" >
+                <input type="button" value="GRAVAR" size="30" id="gravar">
+                <input type="button" value="LIMPAR" size="30" id="limpar">
             </form>
         </div>
-        
+    
     </body>
 </html>
