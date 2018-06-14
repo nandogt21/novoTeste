@@ -66,9 +66,23 @@ font-family:Comic Sans MS, Comic Sans, cursive;
     position:absolute;
         font-size:200%;
         color:white;
+        left:28%;
+        top:3%;
+        font-family:Comic Sans MS, Comic Sans, cursive;
+    }
+     #facacadastro{
+    position:absolute;
+        font-size:200%;
+        color:white;
         left:15%;
         top:3%;
         font-family:Comic Sans MS, Comic Sans, cursive;
+    }
+    #gps{
+        position:absolute;
+        left:14%;
+        top:11%;
+        
     }
        #login-box-interno{
            width:440px;
@@ -162,29 +176,30 @@ font-family:Comic Sans MS, Comic Sans, cursive;
       
     </style>
     <body>
+        <img src="gps.png" id="gps" width="60px" height="60px" >
         <div id="pagina"><center>PhoneLocation</center></div>
         
         <div id="login-box-interno">
             <div id ="facalogin">Faça o Login</div>
-    <form action="receber" method="post">
+    <form action="receber" method="POST">
         <h3 id="Usuario-login">Usuario:<h3><input type="text" id="escrever" size="20"><br><br>
        <h3 id="Senha-login">Senha:</h3><input type="password" id="senha1" size="20">
-    <input type="button" value="ENVIAR" id="enviar" size="15">
-    <input type="button" value="CANCELAR" id="cancelar" size="15">
+       <input type="submit" value="ENVIAR" id="enviar" size="15">
+       <input type="reset" value="CANCELAR" id="cancelar" size="15">
     
 </form>
             
        
         </div>
         <div id="caixa-cadastro">
-            <div id="facalogin">Faça Seu Cadastro !</div>
-            <form>
-                <h2 id="Usuario-cadastro">Usuario:</h2><input type="text" value=usuario" id="barra-do-usuario" size="25" >
-                <h2 id="Senha-cadastro"> Senha:</h2><input type="text" value="senha" id="barra-da-senha" size="25" >
-                <h2 id="Email-cadastro">Email:</h2><input type="text" value="email" id="barra-do-email" size="25" >
-                <h2 id="Telefone-cadastro">Telefone:</h2><input type="text" value="telefone" id="barra-do-telefone" size="25" >
-                <input type="button" value="GRAVAR" size="30" id="gravar">
-                <input type="button" value="LIMPAR" size="30" id="limpar">
+            <div id="facacadastro">Faça Seu Cadastro !</div>
+            <form action="conexao.php" method="POST">
+                <h2 id="Usuario-cadastro">Usuario:</h2><input type="text" name="usuario" placeholder="Usuario" required autofocus id="barra-do-usuario" size="25" maxlength="20" >
+                <h2 id="Senha-cadastro"> Senha:</h2><input type="password" name="senha" placeholder="********" required autofocus id="barra-da-senha" size="25" maxlength="20" >
+                <h2 id="Email-cadastro">Email:</h2><input type="email" name="email" placeholder="Email" required autofocus id="barra-do-email" size="25" maxlength="20">
+                <h2 id="Telefone-cadastro">Telefone:</h2><input type="number" name="telefone" placeholder="(99)9999-9999" required autofocus id="barra-do-telefone" size="25" maxlength="20">
+                <input type="submit" value="GRAVAR" size="30" id="gravar">
+                <input type="reset" value="LIMPAR" size="30" id="limpar">
             </form>
         </div>
     
