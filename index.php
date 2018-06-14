@@ -193,7 +193,7 @@ font-family:Comic Sans MS, Comic Sans, cursive;
         </div>
         <div id="caixa-cadastro">
             <div id="facacadastro">Faça Seu Cadastro !</div>
-            <form action="conexao.php" method="POST">
+            <form action="processar.php" method="POST">
                 <h2 id="Usuario-cadastro">Usuario:</h2><input type="text" name="usuario" placeholder="Usuario" required autofocus id="barra-do-usuario" size="25" maxlength="20" >
                 <h2 id="Senha-cadastro"> Senha:</h2><input type="password" name="senha" placeholder="********" required autofocus id="barra-da-senha" size="25" maxlength="20" >
                 <h2 id="Email-cadastro">Email:</h2><input type="email" name="email" placeholder="Email" required autofocus id="barra-do-email" size="25" maxlength="20">

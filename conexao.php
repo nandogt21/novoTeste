@@ -4,9 +4,9 @@ $login="root";
 $password="";
 $database="cadastro";
 $conexao= mysqli_connect($nome_servidor,$login,$password,$database);
-if(!conexao){
-    echo"falha na conexao!";
-   }
+if($conexao->connect_error) {
+ die("Conexão falhou: " . $conecta->connect_error."<br>");
+ } 
 
 ?>
 
