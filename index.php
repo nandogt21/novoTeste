@@ -1,21 +1,7 @@
-<!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
-<!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
-<!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
+
+<?php
+session_start();
+?>
 <html>
     <head>
         <meta charset="UTF-8">
@@ -176,12 +162,13 @@ font-family:Comic Sans MS, Comic Sans, cursive;
       
     </style>
     <body>
+       
         <img src="gps.png" id="gps" width="60px" height="60px" >
         <div id="pagina"><center>PhoneLocation</center></div>
         
         <div id="login-box-interno">
             <div id ="facalogin">Faça o Login</div>
-    <form action="receber" method="POST">
+            <form action="autenticar.php" method="POST">
         <h3 id="Usuario-login">Usuario:<h3><input type="text" id="escrever" size="20"><br><br>
        <h3 id="Senha-login">Senha:</h3><input type="password" id="senha1" size="20">
        <input type="submit" value="ENVIAR" id="enviar" size="15">
@@ -192,16 +179,19 @@ font-family:Comic Sans MS, Comic Sans, cursive;
        
         </div>
         <div id="caixa-cadastro">
+            
             <div id="facacadastro">Faça Seu Cadastro !</div>
-            <form action="processar.php" method="POST">
+            <form action="processa.php" method="POST">
                 <h2 id="Usuario-cadastro">Usuario:</h2><input type="text" name="usuario" placeholder="Usuario" required autofocus id="barra-do-usuario" size="25" maxlength="20" >
                 <h2 id="Senha-cadastro"> Senha:</h2><input type="password" name="senha" placeholder="********" required autofocus id="barra-da-senha" size="25" maxlength="20" >
-                <h2 id="Email-cadastro">Email:</h2><input type="email" name="email" placeholder="Email" required autofocus id="barra-do-email" size="25" maxlength="20">
+                <h2 id="Email-cadastro">Email:</h2><input type="email" name="email" placeholder="Email" required autofocus id="barra-do-email" size="30" maxlength="20">
                 <h2 id="Telefone-cadastro">Telefone:</h2><input type="number" name="telefone" placeholder="(99)9999-9999" required autofocus id="barra-do-telefone" size="25" maxlength="20">
-                <input type="submit" value="GRAVAR" size="30" id="gravar">
+                <input type="submit" value="CADASTRAR" size="30" id="gravar">
                 <input type="reset" value="LIMPAR" size="30" id="limpar">
             </form>
+            
         </div>
+         
     
     </body>
 </html>
