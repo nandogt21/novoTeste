@@ -16,10 +16,10 @@ $resultado_usuario=mysqli_query($conexao,$result_usuario);
 
 if(mysqli_insert_id(conexao)){
     $_SESSION['msg']="<p style='color:green;'>Usuario Cadastrado com Sucesso</p>";
-    header("location:index.php");
+    header("location:tela.php");
    }
    else{
-       header("location:index.php");
+       header("location:tela.php");
    }
 ?>
 

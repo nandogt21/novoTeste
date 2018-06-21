@@ -168,10 +168,10 @@ font-family:Comic Sans MS, Comic Sans, cursive;
         
         <div id="login-box-interno">
             <div id ="facalogin">Faça o Login</div>
-            <form action="autenticar.php" method="POST">
+            <form action="valida.php" method="POST">
         <h3 id="Usuario-login">Usuario:<h3><input type="text" id="escrever" size="20"><br><br>
        <h3 id="Senha-login">Senha:</h3><input type="password" id="senha1" size="20">
-       <input type="submit" value="ENVIAR" id="enviar" size="15">
+       <input type="submit" value="ENTRAR"  id="enviar" name="enviar" size="15">
        <input type="reset" value="CANCELAR" id="cancelar" size="15">
     
 </form>
