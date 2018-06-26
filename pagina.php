@@ -19,13 +19,13 @@ session_start();
 		}
 		?>
 		<form method="POST" action="processa2.php">
-			<label>Endereço : </label>
-			<input type="text" name="nome" placeholder="Endereço"><br><br>
+			<label>Nome: </label>
+			<input type="text" name="nome" placeholder="nome"><br><br>
 			
-			<label>Longitude: </label>
-                        <input type="cod" name="cod" placeholder="Longitude"><br><br>
-                        <label>Altitude:</label>
-                        <input type="text" name="descriçao" placeholder="Altitude"><br><br>
+			<label>Telefone: </label>
+                        <input type="cod" name="cod" placeholder="TElefone"><br><br>
+                        <label>Email Google:</label>
+                        <input type="text" name="descriçao" placeholder="Email"><br><br>
                         <input type="submit" value="Cadastrar"><br>
                         
                         <iframe

@@ -182,7 +182,7 @@ font-family:Comic Sans MS, Comic Sans, cursive;
             <form action="processa.php" method="POST">
                 <h2 id="Usuario-cadastro">Usuario:</h2><input type="text" name="usuario" placeholder="Usuario" required autofocus id="barra-do-usuario" size="25" maxlength="20" >
                 <h2 id="Senha-cadastro"> Senha:</h2><input type="password" name="senha" placeholder="********" required autofocus id="barra-da-senha" size="25" maxlength="20" >
-                <h2 id="Email-cadastro">Email:</h2><input type="email" name="email" placeholder="Email" required autofocus id="barra-do-email" size="30" maxlength="20">
+                <h2 id="Email-cadastro">Email:</h2><input type="email" name="email"  placeholder="Email" required autofocus id="barra-do-email" size="30" maxlength="20">
                 <h2 id="Telefone-cadastro">Telefone:</h2><input type="number" name="telefone" placeholder="(99)9999-9999" required autofocus id="barra-do-telefone" size="25" maxlength="20">
                 <input type="submit" value="CADASTRAR" size="30" id="gravar">
                 <input type="reset" value="LIMPAR" size="30" id="limpar">
