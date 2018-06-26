@@ -26,13 +26,14 @@ session_start();
                         <input type="cod" name="cod" placeholder="Longitude"><br><br>
                         <label>Altitude:</label>
                         <input type="text" name="descriçao" placeholder="Altitude"><br><br>
-			<input type="submit" value="Cadastrar">
+                        <input type="submit" value="Cadastrar"><br>
                         
-                        <iframe>
-                            wigth:
-                            heigth:
-                            src="" 
-                            
+                        <iframe
+          width="500"
+          height="400"
+          frameborder="0" style="border:0"
+          src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCGQj3pMaaZa7Bqt5Q3z1ezBH5Lhm_8mXE
+          &q=Brasilia+DF" allowfullscreen>
                         </iframe>
 		</form>
 	</body>
